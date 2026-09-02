@@ -1,0 +1,74 @@
+Soccer Stars ASIC - 64-Pin Package Pin Assignments
+Counterclockwise from top-left (Pin 1)
+Pins 1-16:  Left edge (top to bottom)
+Pins 17-32: Bottom edge (left to right)
+Pins 33-48: Right edge (bottom to top)
+Pins 49-64: Top edge (right to left)
+_____________________________________________________
+Pin   Direction       Signal Name
+_____________________________________________________
+1     INPUT           restart
+2     INPUT           h_angle_ctrl
+3     INPUT           enable
+4     INPUT.          NOT USED
+5     INPUT           GND (NOT USED)
+6     INPUT           NOT USED
+7     INPUT           strike_power_ctrl
+8     INPUT           v_angle_ctrl
+9     INPUT           spin_ctrl
+10    OUTPUT          state_debug[0]
+11    INPUT           GND
+12    OUTPUT          state_debug[1]
+13    OUTPUT          state_debug[3]
+14    OUTPUT          keeper_y[0]
+15    OUTPUT          keeper_x[0]
+16    OUTPUT          keeper_y[1]
+17    OUTPUT          keeper_x[3]
+18    OUTPUT          state_debug[2]
+19    OUTPUT          keeper_x[2]
+20    OUTPUT          keeper_x[1]
+21    INPUT           VDD
+22    OUTPUT          valid
+23    OUTPUT          win_loss
+24    INPUT           clkb
+25    OUTPUT          ball_y[2]
+26    OUTPUT          range_debug[7]
+27    INPUT           VDD (NOT USED)
+28    OUTPUT          range_debug[6]
+29    OUTPUT          ball_x[1]
+30    OUTPUT          lateral_debug[0]
+31    OUTPUT          range_debug[4]
+32    OUTPUT          range_debug[5]
+33    OUTPUT          ball_x[0]
+34    OUTPUT          ball_x[2]
+35    OUTPUT          lateral_debug[2]
+36    OUTPUT          lateral_debug[1]
+37    INPUT           GND (NOT USED)
+38    OUTPUT          ball_y[1]
+39    OUTPUT          ball_x[3]
+40    OUTPUT          lateral_debug[3]
+41    OUTPUT          ball_y[3]
+42    OUTPUT          ball_y[0]
+43    INPUT           GND (NOT USED)
+44    OUTPUT          range_debug[3]
+45    OUTPUT          range_debug[0]
+46    OUTPUT          lateral_debug[4]
+47    OUTPUT          keeper_y[2]
+48    OUTPUT          range_debug[1]
+49    OUTPUT          range_debug[2]
+50    OUTPUT          keeper_y[3]
+51    INPUT           VDD (NOT USED)
+52    OUTPUT          lateral_debug[5]
+53    OUTPUT          lateral_debug[6]
+54    OUTPUT          lateral_debug[7]
+55    OUTPUT          mult_product_debug[0]
+56    OUTPUT          mult_product_debug[1]
+57    OUTPUT          mult_product_debug[4]
+58    INPUT           VDD (NOT USED)
+59    OUTPUT          mult_product_debug[3]
+60    OUTPUT          mult_product_debug[5]
+61    OUTPUT          mult_product_debug[2]
+62    OUTPUT          mult_product_debug[6]
+63    OUTPUT          mult_product_debug[7]
+64    INPUT           clka
+_____________________________________________________
